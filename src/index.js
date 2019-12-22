@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// const element = document.createElement("h1");
+// element.innerText = "Probando 1 2 3!";
+//
+// const container = document.getElementById("app");
+//
+// container.appendChild(element);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Hecho con react seria
+import React from "react"; // document.createElement
+import ReactDom from "react-dom"; //container.appendChild
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const element = <h1>Probando 1 2 3!</h1>;
+const container = document.getElementById("app");
+
+ReactDom.render(element, container); //Reemplaza appendChild y se le pasan como parámetro "que" renderizar y "donde"
