@@ -1,2 +1,2 @@
 # react
-Aprendiendo React
+Aca adentro voy a tirar lo aprendido con react.js
