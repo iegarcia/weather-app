@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import CityInfo from "./CityInfo/CityInfo";
+import CityInfo from "./CityInfo";
 
 test("CityInfo render", async () => {
   // AAA
